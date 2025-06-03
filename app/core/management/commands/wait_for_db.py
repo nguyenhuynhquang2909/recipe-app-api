@@ -1,7 +1,7 @@
 """
 Django command to wait for the database to be ready before starting the application.
 """
-import time 
+import time
 from psycopg2 import OperationalError as Pscopq2Error
 from django.db.utils import OperationalError
 from django.core.management.base import BaseCommand
